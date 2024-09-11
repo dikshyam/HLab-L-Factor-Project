@@ -1,0 +1,67 @@
+{
+    "0": {
+        "original_table": "ibelieve_dedup_v1",
+        "original_userid": "message_id",
+        "original_message_field": "Essay",
+        "original_messageid_field": "message_id",
+        "new_table": "ibel"
+    },
+    "2": {
+        "original_table": "nytimes_dedupe_v1",
+        "original_userid": "message_id",
+        "original_message_field": "Body",
+        "original_messageid_field": "message_id",
+        "new_table": "nyt"
+    },
+    "3": {
+        "original_table": "candor_transcript_dedup",
+        "original_userid": "group_id",
+        "original_message_field": "utterance",
+        "original_messageid_field": "message_id",
+        "new_table": "cndr",
+        "group_freq_thresh": 100
+    },
+    "1": {
+        "original_table": "GuiltyKnowledge_SOC",
+        "original_userid": "message_id",
+        "original_message_field": "SOC_Task",
+        "original_messageid_field": "message_id",
+        "new_table": "socmsg",
+        "group_freq_thresh": 5,
+        "feat_occ_filter": true,
+        "p_occ": 0.02,
+        "wc_num_topic_words": 100
+    },
+    "4": {
+        "original_table": "askreddit_comments_15_20_en",
+        "original_userid": "user_id",
+        "original_message_field": "message",
+        "original_messageid_field": "message_id",
+        "new_table": "rddt"
+    },
+    "5": {
+        "original_table": "fb20_dedup",
+        "original_userid": "user_id",
+        "original_message_field": "message",
+        "original_messageid_field": "message_id",
+        "new_table": "fb",
+        "group_freq_thresh": 1000
+    },
+    "6": {
+        "original_table": "twitter19_20_dedup_en",
+        "original_userid": "user_id",
+        "original_message_field": "message",
+        "original_messageid_field": "message_id",
+        "new_table": "twtr",
+        "group_freq_thresh": 1000,
+        "p_occ": 0.05
+    },
+    "7": {
+        "original_table": "ds4ud_fb_text_posts_p3",
+        "original_userid": "fb_user_id",
+        "original_message_field": "message",
+        "original_messageid_field": "message_id",
+        "new_table": "ds4ud",
+        "group_freq_thresh": 1000
+    }
+}
